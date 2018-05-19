@@ -20,6 +20,15 @@ To build this module you need to have following dependencies:
   * pkg-config
   * sphinxbase latest from github
   * pocketsphinx latest from github
+  * ffmpe
+  
+  * The node package has the following dependencies install separately if not found in node-modules
+    * express-fileupload
+    * body-parser
+    * fluent-ffmpeg
+    * express
+    * fs
+    * mail
 
 
 ## Additional notes for pocketsphinx

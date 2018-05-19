@@ -6,6 +6,15 @@ There are two packages
 
 # 1.Server package
 
+### note: THIS CAN BE RUN ON ANY MACOS X OR LINUX DEVICE (TESTED ON MAC OS X HIGH SIERRA, RASPBIAN)
+
+Unzip the package serverfile.zip
+
+## Download the latest pocketsphinx and sphinxbase from
+  
+  * https://cmusphinx.github.io/wiki/download/
+  * unzip and copy these folders as sphinxbase and pocketsphinx inside the serverfiles directory
+  * AS path../serverfiles/pocketsphinx and path../serverfiles/sphinxbase
 
 ## Installation
 
@@ -31,7 +40,7 @@ To build this module you need to have following dependencies:
     * mail
 
 
-## Additional notes for pocketsphinx
+### Additional notes for pocketsphinx
 
 
 Make sure that pocketsphinx is installed properly, adjust LD_LIBRARY_PATH if libraries are not found. You can test pocketsphinx with
@@ -40,11 +49,13 @@ Make sure that pocketsphinx is installed properly, adjust LD_LIBRARY_PATH if lib
 
 
 
-## Running the server
+## Build the project for your system(needs to be run on your system after installing packages)
 
 first navigate into the server files directory and run
 
   npm init
+
+## Running the Server
 
 This should generate a build folder if issues occur downgrade/upgrade node to v5.12.0
 using commands

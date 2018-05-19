@@ -1,6 +1,6 @@
 # SecureCall
 
-SecureCall is a system designed for recording calls and sending them to a localhost device (running linux or macOS). This is done to perform the process of speech to text conversion on a separate device
+SecureCall is a system designed for phone call surveillance. This is done by recording calls and sending them to a localhost device (running linux or macOS). This is done to perform the process of speech to text conversion on a separate device
 The server uses node to receive the files convert them and then uses pocketsphinx to convert it to text and check for keywords
 This cn be used to determine the nature of the call and send notifications to the user via mail
 the nature is determined using a point based system.

@@ -1,6 +1,16 @@
 # SecureCall
 
-There are two packages 
+SecureCall is a system designed for recording calls and sending them to a localhost device (running linux or macOS). This is done to perform the process of speech to text conversion on a separate device
+The server uses node to receive the files convert them and then uses pocketsphinx to convert it to text and check for keywords
+This cn be used to determine the nature of the call and send notifications to the user via mail
+the nature is determined using a point based system.
+The hardware requirement to run this system are:
+
+* A device running linux or macOS(eg any computer or laptop with linux, Rpi )
+* An android smartphone if using the Android Interface for recording calls provided
+* The server can be accessed by any other machine by http://you-ip-address:3000/ after running node file server.js by the html interface
+
+There are two parts to running SecureCall 
 1. Server package
 2. Android app
 

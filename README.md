@@ -64,7 +64,7 @@ using commands
   sudo npm install -g n
   sudo n 5.12.0
 
-### Open the nodefiles and open test1,js in your editor if you want to setup email client for notifications
+### Open the nodefiles and open test1.js in your editor if you want to setup email client for notifications
 
 navigate into the nodefiles folder and run command
 

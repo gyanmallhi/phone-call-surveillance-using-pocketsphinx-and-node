@@ -49,6 +49,7 @@ To build this module you need to have following dependencies:
     * express
     * fs
     * mail
+    * cmake-js
 
 
 ### Additional notes for pocketsphinx
@@ -66,17 +67,16 @@ first navigate into the server files directory and run
 
   npm init
 
-## Running the Server
-
-This should generate a build folder if issues occur downgrade/upgrade node to v5.12.0
+note: This should generate a build folder if issues occur downgrade/upgrade node to v5.12.0
 using commands
 
   sudo npm cache clean -f
   sudo npm install -g n
   sudo n 5.12.0
 
-### Open the nodefiles and open test1.js in your editor if you want to setup email client for notifications
+#### Open the nodefiles and open test1.js in your editor if you want to setup email client for notifications
 
+## Running the Server
 navigate into the nodefiles folder and run command
 
   node server.js

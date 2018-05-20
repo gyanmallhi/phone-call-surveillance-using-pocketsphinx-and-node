@@ -86,10 +86,9 @@ you can check by entering http://localhost:3000/ in the address bar of your brow
 
 ## Additional notes for setting up server
 check your machine ip
-for macos
+* for macos
   * use network utility
-for linux
-  use
+* for linux use
   * ifconfig
 you can access the server from any device using the address
 http://you-ip-address:3000/

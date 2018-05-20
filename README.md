@@ -96,3 +96,18 @@ check your machine ip
 * use http://localhost:3000/upload for uploading files via different interfaces
 * name the json structure as audio or change in the server.js
 * req.files.audio to req.files.new-name
+
+
+
+## CallRecorder – Servo App
+Automatic Phone Call Recorder for Android
+An automatic phone call recorder, records ALL calls your phone gets. You can choose to not record some of your contacts, or you can record every call. Schedule recording cleanup and mark recordings to never be deleted (by the cleanup schedule).
+It's up to you to determine if this is legal in your jurisdiction. Not every phone supports call recording. Use it for experimental purpose only.
+
+## What changes you need to make?
+Replace our local IP with your default server IP address. 
+
+## How it works?
+Once you end a call, the copy of call recording will be saved in your app as well the audio will be sent to the server side for text conversion. Once the server converts the audio to text, it will look for predefined keywords from the library. One the basis of the keywords found, a score will be generated that will determine if the call is fraudulent or not. If the score crosses the threshold value, a mail will be forwarded to your default id, informing you that your account might have been compromised. 
+
+

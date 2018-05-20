@@ -57,7 +57,7 @@ To build this module you need to have following dependencies:
 
 Make sure that pocketsphinx is installed properly, adjust LD_LIBRARY_PATH if libraries are not found. You can test pocketsphinx with
 
-     pocketsphinx_continuous -infile goforward.raw // Recognize goforward.raw file
+    * pocketsphinx_continuous -infile goforward.raw // Recognize goforward.raw file
 
 
 
@@ -65,21 +65,21 @@ Make sure that pocketsphinx is installed properly, adjust LD_LIBRARY_PATH if lib
 
 first navigate into the server files directory and run
 
-  npm init
+  * npm init
 
 note: This should generate a build folder if issues occur downgrade/upgrade node to v5.12.0
 using commands
 
-  sudo npm cache clean -f
-  sudo npm install -g n
-  sudo n 5.12.0
+  * sudo npm cache clean -f
+  * sudo npm install -g n
+  * sudo n 5.12.0
 
 #### Open the nodefiles and open test1.js in your editor if you want to setup email client for notifications
 
 ## Running the Server
 navigate into the nodefiles folder and run command
 
-  node server.js
+  * node server.js
 
 the server should start listening on port 3000
 you can check by entering http://localhost:3000/ in the address bar of your browser
@@ -90,9 +90,9 @@ check your machine ip
   * use network utility
 * for linux use
   * ifconfig
-you can access the server from any device using the address
-http://you-ip-address:3000/
-eg. http://192.168.43.2:3000/
-use http://localhost:3000/upload for uploading files via different interfaces
-name the json structure as audio or change in the server.js
-req.files.audio to req.files.new-name
+* you can access the server from any device using the address
+* http://you-ip-address:3000/
+* eg. http://192.168.43.2:3000/
+* use http://localhost:3000/upload for uploading files via different interfaces
+* name the json structure as audio or change in the server.js
+* req.files.audio to req.files.new-name
